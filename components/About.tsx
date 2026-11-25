@@ -7,22 +7,22 @@ export default function About() {
       <div className="mx-auto max-w-[1240px] px-5 md:px-8">
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-5" data-reveal>
-            <div className="relative">
-              <div className="overflow-hidden rounded-2xl border border-line bg-paper-2">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/esther.jpg"
-                  alt="Esther Osuoha outside the Department of Computer Science at Nnamdi Azikiwe University"
-                  className="aspect-[4/5] w-full object-cover"
-                  loading="lazy"
-                />
-              </div>
-              <div className="absolute inset-x-4 bottom-4 flex items-center justify-between gap-3 rounded-xl border border-paper/20 bg-ink/65 px-3.5 py-2.5 text-paper backdrop-blur-md">
+            <div className="overflow-hidden rounded-2xl border border-line bg-paper">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/esther.jpg"
+                alt="Esther Osuoha outside the Department of Computer Science at Nnamdi Azikiwe University"
+                width={1200}
+                height={1600}
+                className="block h-auto w-full"
+                loading="lazy"
+              />
+              <div className="flex items-center justify-between gap-3 border-t border-line bg-paper px-3.5 py-3">
                 <div className="min-w-0">
-                  <p className="font-mono text-[8px] uppercase tracking-[0.18em] text-paper/50">Nnamdi Azikiwe University</p>
-                  <p className="mt-0.5 truncate text-[11.5px]">Department of Computer Science</p>
+                  <p className="font-mono text-[8px] uppercase tracking-[0.18em] text-muted">Nnamdi Azikiwe University</p>
+                  <p className="mt-1 truncate text-[11.5px] text-ink">Department of Computer Science</p>
                 </div>
-                <span className="shrink-0 rounded-full border border-paper/20 px-2 py-0.5 font-mono text-[8px] uppercase tracking-[0.12em] text-paper/70">
+                <span className="shrink-0 rounded-full border border-line px-2 py-0.5 font-mono text-[8px] uppercase tracking-[0.12em] text-muted">
                   &apos;26
                 </span>
               </div>
