@@ -2,6 +2,8 @@
 
 Personal portfolio for Esther Osuoha, full stack engineer and UI/UX product designer based in Lagos, Nigeria.
 
+Live: https://esther-osuoha.vercel.app
+
 Built with Next.js (App Router), React, TypeScript and Tailwind CSS v4. No UI libraries, no animation libraries: the visuals, project mockups and motion are hand-written.
 
 ## Local development
