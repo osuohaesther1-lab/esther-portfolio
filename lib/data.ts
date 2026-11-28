@@ -58,7 +58,7 @@ export const projects: Project[] = [
     index: "01",
     title: "Loamy",
     subtitle: "AI mobile platform for African farmers",
-    status: "In development",
+    status: "Live",
     year: "2026",
     summary:
       "A mobile-first platform that helps smallholder farmers diagnose crop disease, get planting and fertiliser guidance, and sell directly to customers.",
@@ -93,7 +93,7 @@ export const projects: Project[] = [
     index: "03",
     title: "Gain As You Waste",
     subtitle: "Waste-to-wealth platform",
-    status: "In development",
+    status: "Live",
     year: "2026",
     summary:
       "A platform connecting households, waste collectors and recycling companies so recyclable materials get collected and paid for instead of discarded.",

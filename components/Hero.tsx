@@ -140,7 +140,7 @@ export default function Hero() {
 
               <div className="absolute -bottom-5 -left-4 hidden items-center gap-2.5 rounded-xl border border-line bg-paper px-3.5 py-2.5 shadow-[0_12px_30px_-16px_rgba(22,21,15,0.4)] sm:flex">
                 <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-                <span className="font-mono text-[9.5px] uppercase tracking-[0.14em] text-ink-2">Building Loamy</span>
+                <span className="font-mono text-[9.5px] uppercase tracking-[0.14em] text-ink-2">Loamy live now</span>
               </div>
             </div>
           </div>

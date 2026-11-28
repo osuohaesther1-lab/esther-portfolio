@@ -92,8 +92,8 @@ function ProjectCard({ project, index }: { project: (typeof projects)[number]; i
             </a>
           ))}
           {project.links.length === 0 && (
-            <span className="font-mono text-[9px] uppercase tracking-[0.14em] text-muted/70">
-              Private build · in progress
+            <span className="font-mono text-[9px] uppercase tracking-[0.14em] text-forest">
+              Live now
             </span>
           )}
         </div>
